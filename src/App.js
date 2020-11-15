@@ -1,7 +1,8 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 // import { Container } from 'reactstrap';
 // import AboutMe from './Components/Pages/AboutMe';
 // import Portfolio from './Components/Pages/Projects';
@@ -14,7 +15,7 @@ import Navbar from "./Components/Navbar";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <div>
         <Navbar />
           {/* <Container>
@@ -22,8 +23,9 @@ function App() {
             <Route path="/projects" component={Portfolio} />
             <Route path="/contact" component={Contact} />
           </Container> */}
-      </div>
-      </BrowserRouter>
+        <Footer />
+       </div>
+    </Router>
   );
 }
 
