@@ -1,8 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+//Import pages
+import About from "./Pages/AboutMe"
+
+//Import components
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import Wrapper from "./Components/Wrapper"
 // import { Container } from 'reactstrap';
 // import AboutMe from './Components/Pages/AboutMe';
 // import Portfolio from './Components/Pages/Projects';
@@ -18,11 +23,11 @@ function App() {
     <Router>
       <div>
         <Navbar />
-          {/* <Container>
-            <Route exact path="/" component={AboutMe} />
-            <Route path="/projects" component={Portfolio} />
-            <Route path="/contact" component={Contact} />
-          </Container> */}
+          <Wrapper>
+            <Route exact path="/" component={About} />
+            {/* <Route path="/projects" component={Portfolio} />
+            <Route path="/contact" component={Contact} /> */}
+          </Wrapper>
         <Footer />
        </div>
     </Router>
