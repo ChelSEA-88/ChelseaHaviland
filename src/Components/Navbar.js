@@ -24,16 +24,16 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/discover"
-                className={window.location.pathname === "/discover" ? "nav-link active" : "nav-link"}
+                to="/Portfolio"
+                className={window.location.pathname === "/Portfolio" ? "nav-link active" : "nav-link"}
               >
                 Portfolio
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/search"
-                className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
+                to="/Contact"
+                className={window.location.pathname === "/Contact" ? "nav-link active" : "nav-link"}
               >
                 Contact
               </Link>
