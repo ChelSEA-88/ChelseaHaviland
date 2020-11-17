@@ -23,7 +23,7 @@ const Projects = [
         "id": 3,
         "projectName": "Weather Dashboard",
         "image" : weatherDash,
-        "summary": "Freelancers is a web application designed to assist the user with connect them to a local expert to get the job done. In addition, a professional can come visit the app and leave their information to later be called upon to do a job.",
+        "summary":  "Gallivant is  comprehensive weather planner. Not only can you plan your trip, but also the weather for your trip. You'll never over pack when you use Gallivant.",
         "githubLink": "https://github.com/ChelSEA-88/weather-dash",
         "deployedLink": "https://chelsea-88.github.io/weather-dash/"
     }

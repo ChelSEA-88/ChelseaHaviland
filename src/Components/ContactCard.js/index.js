@@ -4,7 +4,7 @@ import {Row, Col} from "reactstrap";
 import Button from 'react-bootstrap/Button';
 import "./style.css";
 
-const ProjectCard = (props)  => {
+const ContactCard = (props)  => {
 
     return (
         <div>
@@ -35,4 +35,4 @@ const ProjectCard = (props)  => {
     )
 }
 
-export default ProjectCard;
+export default ContactCard;

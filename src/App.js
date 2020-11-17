@@ -1,14 +1,14 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 //Import pages
 import About from "./Pages/AboutMe"
 import Portfolio from "./Pages/Portfolio";
+import Contact from "./Pages/Contact";
 
 //Import components
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import Wrapper from "./Components/Wrapper";
 import { Container } from "reactstrap";
 
 
@@ -16,16 +16,15 @@ import { Container } from "reactstrap";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
         <Navbar />
           <Container>
             <Route exact path="/" component={About} />
-            {/* <Route exact path="/AboutMe" component={About} /> */}
             <Route path="/Portfolio" component={Portfolio} />
-            {/* <Route path="/contact" component={Contact} /> */}
+            <Route path="/contact" component={Contact} />
           </Container>
         <Footer />
-    </BrowserRouter>
+    </Router>
   );
 }
 
