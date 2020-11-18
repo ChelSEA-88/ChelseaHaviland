@@ -36,9 +36,9 @@ function About() {
           </Row>
           <Row> 
             <Col size="lg-12" padding="p-">
-              <p className="text-center" style={style}>
+              <h4 className="text-center" style={style}>
                 Thank you for taking the time to get to know me, and viewing my work!
-              </p>
+              </h4>
             </Col>
            </Row>
         </Container>
