@@ -25,7 +25,7 @@ const ProjectCard = (props)  => {
                         <br />
                         <Button className="btn" variant="btn-margin-l" variant="secondary" href={props.deployedLink} target="blank">
                             Deployed App</Button>
-                        <Button className="btn" variant="btn-margin-l" variant="secondary" href={props.githubLink} target="blank">
+                        <Button className="btn" style={{ marginLeft: "5px"}} variant="btn-margin-l" variant="secondary" href={props.githubLink} target="blank">
                             Github Repo</Button>
                     </Card.Body>
                 </Col>

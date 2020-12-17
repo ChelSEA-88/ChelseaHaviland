@@ -4,7 +4,8 @@ import {
     CardTitle, Row, Col, NavLink
 } from 'reactstrap';
 import Headshot from "../Pictures/chelseagit.png";
-import resume from "../Pictures/ChelseaHavilandTechnicalResume.pdf"
+import resume from "../Pictures/techResume.pdf"
+import creativeResume from "../Pictures/Resume1.pdf"
 
 function Contact() {
     return (
@@ -27,8 +28,11 @@ function Contact() {
                                     <NavLink href="https://www.linkedin.com/in/chelseahaviland13/"> View my LinkedIn</NavLink>
                                     <NavLink href="https://github.com/: chelSEA-88"> View my GitHub</NavLink>  
                                     <Row className="padding: 20px">
-                                    <Button color="secondary" className="mr-5" href={resume} target="_blank">View my resume Here!</Button>
-                                    </Row>             
+                                    <Button color="secondary"style={{ margin: "10px" }} className="mr-5" href={resume} target="_blank">View my tech resume Here!</Button>
+                                    </Row> 
+                                    <Row className="padding: 50px"> 
+                                    <Button color="secondary" style={{ margin: "10px" }} className="mr-5" href={creativeResume} target="_blank">View my creative resume Here!</Button>
+                                    </Row>            
                                 </Col>
                             </Row>
                         </CardBody>
