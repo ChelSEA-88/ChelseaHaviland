@@ -24,7 +24,7 @@ function About() {
           <Row>
             <Col size="md-6">
                 <p>
-                    I am a creative at heart. I love bringing things together, wether it's an event, a space, toppings on a pizza or a layout on a page. Although this new tech adventure is a different kind of challenge than I have ever faced, I have thoroughly enjoyed every BOOM  moment that comes after countless hours of failed attempts and bang your head on the table moments. Even as a newcomer to the tech world, I've experienced sleepless nights, tossing and turning about a coding problem I couldn't figure out that day. The gutteral happiness I feel after finding the solution, is something I'm going to keep chasing.  
+                    I am a creative at heart. I love bringing things together, wether it's an event, a space, toppings on a pizza or a layout on a page. Although this new tech adventure is a different kind of challenge than I have ever faced, I have thoroughly enjoyed every BOOM  moment that comes after countless hours of failed attempts and bang your head on the table moments. Even as a newcomer to the tech world, I've experienced sleepless nights, tossing and turning about a coding problem I couldn't figure out that day. The happiness I feel after finding the solution, is something I'm going to keep chasing.  
                 </p>
                 <p>
                     Best advice I have recieved following code school: 
