@@ -50,9 +50,7 @@ function About() {
            </Row>
            <Row> 
             <Col size="lg-12" padding="p-">
-              <h6 className="text-center" style={{ color: "red" }}>
-                This site is under construction! An awesome design and user experience coming soon! 
-              </h6>
+           
             </Col>
            </Row>
         </Container>
