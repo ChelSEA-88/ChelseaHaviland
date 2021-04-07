@@ -8,13 +8,13 @@ const ProjectCard = (props)  => {
 
     return (
         <div>
-        <Card className="card">
+        <Card className="card" style={{marginBottom: 20}}>
             <Card.Title tag="h3" className="p-3">
                 {props.projectName}
             </Card.Title>
             <Row>
                 <Col>
-                    <Card.Img width="75%" className="md-5"src={props.image} alt="Project Pic" />
+                    <Card.Img width="75%" className="md-5"src={props.image} alt="Project Pic"/>
                 </Col>
                 <Col>
                     <Card.Body>

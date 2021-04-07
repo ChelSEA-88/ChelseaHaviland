@@ -6,6 +6,8 @@ import Container from "../Components/Container";
 import Row from "../Components/Row";
 import Col from "../Components/Col";
 import Headshot from "../Pictures/chelseagit.png";
+import Portfolio from "./Portfolio";
+import Charlesst from "../Pictures/Charlesst.jpg";
 
 function About() {
   const style= {
@@ -14,17 +16,16 @@ function About() {
   }
     return (
       <div>
-        <Container style={{ marginTop: 80 }}>
+        <Container style={{ marginTop: 80, marginBottom: 80, backgroundColor: 'e6ffff'}}>
 
-          <Row>
-            <Col size="md-12">
+          <Row style={{ marginLeft: 80}}>
+            <Col size="md-12" style={{marginBottom: 80}}>
               <h1 className="greeting">Hey there!</h1>
             </Col>
-          </Row>
-          <Row>
+          
             <Col size="md-6">
                 <p>
-                    I am a creative at heart. I love bringing things together, wether it's an event, a space, toppings on a pizza or a layout on a page. Although this new tech adventure is a different kind of challenge than I have ever faced, I have thoroughly enjoyed every BOOM  moment that comes after countless hours of failed attempts and bang your head on the table moments. Even as a newcomer to the tech world, I've experienced sleepless nights, tossing and turning about a coding problem I couldn't figure out that day. The happiness I feel after finding the solution, is something I'm going to keep chasing.  
+                    I am a creative at heart. I love bringing things together, wether it's an event, a space, toppings on a pizza, or a layout on a page. With my design background, and newly developed coding skills, I am ready to tackle every challenge that comes my way. I am happiest when I am solving a unique coding problem, or even doing the simplest of page layouts.   
                 </p>
                 <p>
                     Best advice I have recieved following code school: 
@@ -39,21 +40,11 @@ function About() {
             <Col size="6">
                 <img src={Headshot} alt="Headshot"/>
             </Col>
-
           </Row>
-          <Row> 
-            <Col size="lg-12" padding="p-">
-              <h4 className="text-center" style={style}>
-                Thank you for taking the time to get to know me, and viewing my work!
-              </h4>
-            </Col>
-           </Row>
-           <Row> 
-            <Col size="lg-12" padding="p-">
-           
-            </Col>
-           </Row>
+          
         </Container>
+
+        <Portfolio></Portfolio>
       </div>
     );
   }

@@ -13,7 +13,7 @@ function Contact() {
                 <h3 className="m-5 text-center">Contact Information</h3>
                 <hr className="my-4" />
                 <Row className="d-flex justify-content-center">
-                    <Card>
+                    <Card style={{marginBottom: 80}}> 
                         <CardHeader tag="h3" >
                           <h6 className="text-center">Thank you for your time, let's talk!</h6>
                         </CardHeader>

@@ -13,9 +13,9 @@ class Portfolio extends Component{
 
     render() {
         return(
-            <Container className="text-center">
-            
-                <h1> Projects </h1>
+            <Container className="text-center" style={{marginBottom: 80}}>
+
+                <h2 style={{marginBottom: 40}}> Projects From Coding Bootcamp  </h2>
                 {this.state.projects.map(project =>(
                     <ProjectCard
                         key={project.id}
